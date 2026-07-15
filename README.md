@@ -15,13 +15,20 @@
 
 ---
 
-แต่ละโฟลเดอร์มี `README.md` ของตัวเองที่อธิบายรายละเอียดงาน วิธีรัน และผลลัพธ์
+## 📂 ไฟล์ในงาน Lab 1–2 (เฉพาะที่ต้องส่ง)
+
+| ไฟล์ | Deliverable |
+|------|-------------|
+| `clean_iot_data.ipynb` | Source code (รันแล้ว มี output แสดงการตรวจปัญหา + ตารางสรุป) |
+| `iot_sensor_cleaned_data.csv` | Cleaned Data |
+| `รายงาน_Lab1_Lab2.docx` | รายงานปัญหาที่พบ + ตารางสรุป Error/Duplicate/Missing/Outlier + Lab 1 |
+| `iot_sensor_raw_data_extended.csv` | Raw Data ต้นฉบับ (อินพุตของ source code — ไม่แก้ไข) |
 
 ---
 
 ## 🔁 วิธีเพิ่มงานครั้งต่อไป
 
-1. สร้างโฟลเดอร์ใหม่ เช่น `Lab03_ชื่องาน/` พร้อม `README.md` ของงานนั้น
+1. สร้างโฟลเดอร์ใหม่ เช่น `Lab03_ชื่องาน/`
 2. `git add -A && git commit -m "Add Lab 03"` แล้ว `git push`
 3. tag สแนปชอตการส่ง: `git tag lab03-submit && git push origin lab03-submit`
 4. อัปเดตตารางสารบัญด้านบน แล้ววาง**ลิงก์โฟลเดอร์งาน**ใน Google Classroom
